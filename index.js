@@ -4,7 +4,7 @@ const crypto = require("crypto");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const BASE_URL = process.env.BASE_URL || "https://shorturl.com"; 
+const BASE_URL = process.env.BASE_URL || "https://shorturl"; 
 
 app.use(express.json());
 app.use(cors());
