@@ -27,7 +27,7 @@ app.post("/app", async (req, res) => {
   const key = crypto.randomBytes(5).toString("hex");
   urls[key] = url;
   
-  res.json({ shorturl: `${BASE_URL}/${key}` });
+  res.json({ shorturl: `shorturl/${key}` });
 });
 
 // Redirection vers l'URL originale
