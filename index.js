@@ -4,7 +4,7 @@ const crypto = require("crypto");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const BASE_URL = process.env.BASE_URL || "https://shorturl"; 
+const BASE_URL = process.env.BASE_URL || "https://shoritfy-url-backend-production.up.railway.app"; 
 
 app.use(express.json());
 app.use(cors());
